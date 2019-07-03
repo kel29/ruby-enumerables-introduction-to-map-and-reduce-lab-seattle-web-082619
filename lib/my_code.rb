@@ -14,3 +14,15 @@ end
 def map_to_square(s)
   s.map { |i| i *= i }
 end
+
+def reduce_to_total(s)
+  s.sum 
+end
+
+def reduce_to_all_true(s)
+  
+end
+
+def reduce_to_any_true(s)
+  
+end
