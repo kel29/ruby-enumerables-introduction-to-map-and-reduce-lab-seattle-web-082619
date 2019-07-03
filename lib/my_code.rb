@@ -12,5 +12,5 @@ def map_to_double(s)
 end
 
 def map_to_square(s)
-  s.map { |i} i *= i }
+  s.map { |i| i *= i }
 end
