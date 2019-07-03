@@ -15,7 +15,7 @@ def map_to_square(s)
   s.map { |i| i *= i }
 end
 
-def reduce_to_total(s)
+def reduce_to_total(s, v = 0)
   s.reduce(:+)
 end
 
