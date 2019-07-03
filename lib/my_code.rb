@@ -20,7 +20,7 @@ def reduce_to_total(s, v = 0)
 end
 
 def reduce_to_all_true(s)
-  a.each { |i| i == false || i == nil ? false : true }
+  s.each { |i| i == false || i == nil ? false : true }
 end
 
 def reduce_to_any_true(s)
