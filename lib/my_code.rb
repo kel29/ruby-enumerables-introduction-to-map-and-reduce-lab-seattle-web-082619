@@ -25,5 +25,6 @@ def reduce_to_all_true(s)
 end
 
 def reduce_to_any_true(s)
-    s.each { |i| i == false || i == nil ? false : true }
+    s.each { |i| return trun if i != false && i != nil }
+    false
 end
