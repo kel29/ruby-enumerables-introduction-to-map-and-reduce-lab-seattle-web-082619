@@ -16,7 +16,7 @@ def map_to_square(s)
 end
 
 def reduce_to_total(s)
-  s.sum 
+  s.reduce(:+)
 end
 
 def reduce_to_all_true(s)
